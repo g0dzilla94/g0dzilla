@@ -37050,6 +37050,11 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
+        
+        
         }
 
         /** common-rules **/
@@ -37175,6 +37180,14 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         margin-top: 20px;
         margin-bottom: 20px;
+        }
+        .u-body
+        {
+        background-image: url("images/default-image.jpg");
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         }
         /** common-rules **/
 
@@ -37369,12 +37382,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 336px;
+    min-height: 502px;
   }
 
   .u-footer .u-group-1 {
     width: 283px;
-    margin-top: 101px;
+    margin-top: 0;
     margin-bottom: 60px;
   }
 
